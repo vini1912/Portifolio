@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinicius Oliveira</title>
+  <link rel="stylesheet" href="/styles/estilo.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/icon-codigo.png">
+
+  <!-- Fontes e ícones -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- navegação -->
+  <nav class="navbar">
+    <div class="navbar__content max-width mb-0">
+      <a href="/assets/v.png" class="logo">Vini<span></span></a>
+      <ul class="navbar__links">
+        <li><a href="#header">Início</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#footer">Contato</a></li>
+      </ul>
+      <div class="hamburguer">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- início -->
+  <header id="header" class="max-width">
+    <div class="header__left">
+      <h1>Olá! Sou Vinicius Oliveira, Desenvolvedor Front-end</h1>
+      <p>Tenho domínio em Python (com Flask e programação orientada a objetos) e JavaScript (para animações e interações usando Animate.css). Também conheço HTML, CSS e SQLite, permitindo criar interfaces modernas e bancos de dados simples. Principais tecnologias: <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>Flask</b> e <b>Python</b>.</p>
+      <div class="header__links">
+        <ul>
+          <li><a href="https://github.com/vini1912" target="_blank"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/vinicius.o.lima" target="_blank"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__right">
+      <div class="header__image">
+        <img src="/assets/v.png" alt="Vinicius" class="Vini">
+      </div>
+    </div>
+  </header>
+
+  <!-- habilidades -->
+<section id="skills" class="skills">
+  <div class="skills__content max-width">
+    <h2 class="secondary-title">Tecnologias</h2>
+    <p class="description">Algumas das tecnologias que utilizo nos meus projetos.</p>
+    <ul class="skills__list">
+      <li class="skills__item">
+        <div class="image-container">
+          <h3>HTML</h3>
+        </div>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+
+          <h3>CSS</h3>
+        </div>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <h3>JavaScript</h3>
+        </div>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <h3>Python</h3>
+        </div>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <h3>Banco de Dados</h3>
+        </div>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <h3>Prototipação</h3>
+        </div>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <h3>APIs</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- projetos -->
+  <section id="projects" class="projects max-width">
+    <div class="projects__content">
+      <h2 class="secondary-title">Projetos em Destaque</h2>
+      <p>Confira abaixo alguns dos meus projetos mais recentes, desenvolvidos com foco em design e funcionalidade.</p>
+    </div>
+
+    <ul>
+      <li>
+        <img src="/assets/fnaf.png" alt="Projeto FNAF">
+        <div class="projects__info">
+          <h3>Projeto FNAF</h3>
+          <p>Jogo inspirado no universo de Five Nights at Freddy's, com foco em suspense e interatividade.</p>
+        </div>
+      </li>
+      <li class="projects__reversed-list">
+        <img src="/assets/investimento.img.png" alt="Simulador de Investimento">
+        <div class="projects__info">
+          <h3>Simulador de Investimentos</h3>
+          <p>Ferramenta para simular rendimentos com base em taxas reais de mercado, feita com JavaScript, html css e muito banco de dados.</p>
+        </div>
+      </li>
+      <li>
+        <img src="/assets/mortal.png" alt="Jogo de Cartas - Mortal Kombat">
+        <div class="projects__info">
+          <h3>Jogo de Cartas - Mortal Kombat</h3>
+          <p>Um jogo de luta em estilo carta baseado em personagens do Mortal Kombat. Desenvolvido em HTML, CSS e JS.</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="projects-more hide" id="projects-more">
+      <ul></ul>
+    </div>
+
+
+  <!-- Rodapé -->
+<footer id="footer">
+  <div class="footer__content max-width">
+    <h2 class="secondary-title mb-s">Vamos conversar?</h2>
+    <form action="https://formsubmit.co/vinicius.o.lima89@gmail.com" method="POST" class="contact-form" novalidate>
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome" required aria-required="true" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required aria-required="true" />
+      </div>
+      <div class="form-group">
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem aqui..." required aria-required="true"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+    </form>
+    <p class="footer__copyright">© 2025 Vinicius Oliveira. Todos os direitos reservados.</p>
+  </div>
+</footer>
+</body>
+</html>
